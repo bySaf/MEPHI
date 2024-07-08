@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="header">
+  <a href="#default" class="logo">Система видеонаблюдения</a>
+
+  <div class="header-right">
+      <a href="http://t.me/davsf">BySaf</a>
+  </div>
+</div>
+<div class = "megaDIV">
+    <div class = "images">
+        <img src="/video_feed" height="700" width="850"  alt="Camera Stream1">
+    </div>
+    <div class = "img">
+            <img src="http://192.168.11.1:8080/stream?topic=/main_camera/image_raw" height="700" width="850" alt="Camera Stream2">
+    </div>
+</div>
+ <!-- <img src="{{ url_for('video_feed') }}" alt="Camera Stream"> -->
+
+</body>
+</html>
